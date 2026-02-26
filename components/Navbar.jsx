@@ -9,20 +9,21 @@ export const Navbar = () => {
 
         {/* Logo */}
         <div className="logo">
+        <Link href='/'>
           <span className="font-bold text-2xl leading-none block">
             CO<span className="text-orange-400">NN</span>ECT
             <br />
             <span className="ml-5">SPHERE</span>
-          </span>
+          </span></Link>
         </div>
 
         {/* Links */}
         <ul className="flex gap-10 mt-5">
           {[
-            { name: 'EVENTS', link: '/events' },
-            { name: 'SPEAKERS', link: '/speakers' },
-            { name: 'NETWORKING', link: '/networking' },
-            { name: 'CONTACT US', link: '/contactus' },
+            { name: 'EVENTS', link: '/pages/events' },
+            { name: 'SPEAKERS', link: '/pages/speakers' },
+            { name: 'NETWORKING', link: '/pages/networking' },
+            { name: 'CONTACT US', link: '/pages/contactus' },
           ].map((item, i) => (
             <li key={i} className="relative group">
               <Link
