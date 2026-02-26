@@ -1,4 +1,4 @@
-import React, { Profiler } from 'react'
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Calendar, Clock,  Coffee,  LocateFixed, Mic, Mic2, User2, Users } from 'lucide-react'
