@@ -78,7 +78,7 @@ export const Homepage = () => {
             '/arijitsing.png',
             '/darshan.png',
             '/shaan.png',
-            '/shreya.png',
+            '/download.jpg',
             '/neha.png',
           ].map((src, i) => (
             <motion.div
